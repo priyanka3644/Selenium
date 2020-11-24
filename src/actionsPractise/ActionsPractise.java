@@ -11,17 +11,23 @@ public class ActionsPractise {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\psanka\\Desktop\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\lappy\\Desktop\\drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
+		
 		driver.get("https://www.amazon.com/");
 		
 		Actions a = new Actions(driver);
 		
+		//Mouse Hover
+		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).build().perform();
+		
+		//Right click
+		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).contextClick().build().perform();
+		
+		//capitalise
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello").doubleClick().build().perform();
 
-		//Move the mosue to specific element
-		a.moveToElement(driver.findElement(By.id("nav-link-accountList"))).contextClick().build().perform();
 		
 
 	}
