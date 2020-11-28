@@ -1,4 +1,4 @@
-package Assignmengts;
+package staticAndDynamicDropdowns;
 
 import java.util.List;
 
