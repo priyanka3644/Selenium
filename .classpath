@@ -8,7 +8,8 @@
 	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/Selenium/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/Selenium/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/Selenium/libs/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/testng-6.7.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/org.apache.commons.io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lappy/Desktop/drivers/testng-7.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
